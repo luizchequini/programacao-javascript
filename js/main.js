@@ -19,7 +19,7 @@ console.log(frase.toLowerCase());
 console.log('-> upperCase')
 console.log(frase.toUpperCase());
 
-console.log('-> Calculos')
+console.log('-> Calculos');
 console.log('Soma de ' + n1 + ' + ' + n2+ ' = ' +(n1 + n2));
 console.log('Subtração de ' + n1 + ' - ' + n2+ ' = ' +(n1 - n2));
 console.log('Multiplicação de ' + n1 + ' * ' + n2+ ' = ' +(n1 * n2));
