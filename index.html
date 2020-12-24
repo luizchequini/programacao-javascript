@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página</title>
-    <script type="text/javascript" src="js/funcoes.js"></script>
+    <script type="text/javascript" src="js/manipulacao-de-elementos.js"></script>
 </head>
-<body>
-    <h1>Aula 4</h1>
-    <p>[x] Funções</p>
+<body onload="onLoadCarregaBody()">
+    <button onclick="cliqueBotao()">Clique Aqui</button>
+    <h3 id="cliqueBotao">Desligado</h3>
+    <hr />
+    <button onclick="redirecionarNovaGuia()">GitHub Luiz Chequini - Nova Guia</button>
+    <button onclick="redirecionarMesmaGuia()">GitHub Luiz Chequini - Mesma Guia</button>
+    <hr />
+    <h3 onmouseover="onMouseOver()">Teste onmouseover</h3>
+    <hr />
+    <h3 onmouseout="onMouseOut()">Teste onmouseout</h3>
+    <hr />
+    <button id="testeThis" onmouseover="onMouseOverThis(this)" onmouseout="onMouseOutThis(this)">onMouseOverThis</button>
+    <button id="testeThis2" onmouseover="onMouseOverThis(this)" onmouseout="onMouseOutThis(this)">onMouseOverThis</button>
+    <button id="testeThis3" onmouseover="onMouseOverThis(this)" onmouseout="onMouseOutThis(this)">onMouseOverThis</button>
+    <hr />
+    <select onchange="onChangeCombo(this)">
+        <option value="0">Selecione um Valor</option>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
 </body>
 </html>

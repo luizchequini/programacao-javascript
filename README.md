@@ -18,10 +18,11 @@ Comunidade com +200 mil desenvolvedores de software que acelera gratuitamente a 
 - [x] lowerCase, upperCase
 - [x] date
 - [x] function
-- [] redirecionamento de páginas
-- [] dom
-- [] getElement
-- [] innerHTML
-- [] onclick
-- [] onmouseover
-- [] onchange
+- [x] redirecionamento de páginas
+- [x] dom
+- [x] getElement
+- [x] innerHTML
+- [x] onclick
+- [x] onmouseover
+- [x] onmouseout
+- [x] onchange
